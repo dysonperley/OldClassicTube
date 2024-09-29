@@ -1,5 +1,13 @@
-# yt2009
-a fairly accurate 2009 youtube frontend.
+# OldClassicTube
+
+## Credits
+### Credits to the people who makes yt2009 and all of its forks. Not affereted with YT2009 or Youtube or Google.
+
+### Our Sponser is Protoweb
+
+OldClassicTube is a fairly old + accurate 2009 youtube frontend.
+
+This is ment to be offline but i just forked yt2009. Credits to yt2009 and all of its forks or even Youtube or Google without you guys this would not be here.
 
 <img src="doc-imgs/ie6-ss.png" width="400">
 <img src="doc-imgs/ie6-ss2.png" width="400">
@@ -14,7 +22,7 @@ a fairly accurate 2009 youtube frontend.
 ### when installing imagemagick, make sure you also install its legacy tools (convert)! 
 
 - install node.js
-- open a terminal (windows powershell/cmd) in the directory you cloned yt2009 to, then:
+- open a terminal (windows powershell/cmd) in the directory you cloned OldClassicTube to, then:
 - install required dependencies with: `npm install`
 - create a config file by launching and following: `node yt2009setup.js`
 - run to set and download remaining assets `node post_config_setup.js`
@@ -29,7 +37,7 @@ afterwards, you can just `cd back` and `node backend.js` to start. no need to re
 
 ### - **if experiencing issues with ytdl-core, apply this pull. https://github.com/fent/node-ytdl-core/pull/1217**
 
-**as of november 2023, it still isn't merged with the main repo.**
+**as of september 2024, it still isn't merged with the main repo.**
 
 - set up an android app by following [apk_setup.md](apk_setup.md)
 
@@ -67,7 +75,7 @@ and just click around! you might find some useful features you didn't expect to 
 
 ---
 
-**over time, depending on your usage, yt2009 may take up a lot of space (counted in tens of gigabytes!)**
+**over time, depending on your usage, OldClassicTube may take up a lot of space (counted in tens of gigabytes!)**
 
 **if you need to reclaim space, look through the assets folder where downloaded files (such as images, videos) are saved and delete ones you need.**
 
@@ -77,13 +85,19 @@ and just click around! you might find some useful features you didn't expect to 
 
 ## notes, docs
 
-over time some tools and documentation was written about yt2009. for an easy reference, those are listed below.
+over time some tools and documentation was written about OldClassicTube. for an easy reference, those are listed below.
 
 - [apk_setup.md](apk_setup.md) - set early youtube android APKs to work with yt2009
 - [config_params.md](config_params.md) - a list of ALL available config options.
 - [docker.md](docker.md) - yt2009 setup with docker. also listed in the setup section. (thanks, breakgimme!)
 - [flash_additions.md](flash_additions.md) - some info on caption and annotations modules within the default 2009 flash player.
 - [flash_player_patch.md](flash_player_patch.md) - manual patch info for using flash players with yt2009.
-
-
 - [autoapk.js](autoapk.js) - a node cli file to automatically patch APKs supported by yt2009. your mileage may vary.
+
+## Credits again
+
+Credits to these
+
+- [Youtube](https://www.youtube.com)
+- [Google](https://www.google.com)
+- [YT2009](https://github.com/ftde0/yt2009)
