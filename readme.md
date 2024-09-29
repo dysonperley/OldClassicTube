@@ -2,6 +2,12 @@
 
 ## Credits
 ### Credits to the people who makes yt2009 and all of its forks. Not affereted with YT2009 or Youtube or Google.
+Credit links
+
+- [Youtube](https://www.youtube.com)
+- [Google](https://www.google.com)
+- [YT2009](https://github.com/ftde0/yt2009)
+- [YT2009 CoolFun Fork](https://github.com/CubeFun/yt2009)
 
 ### Our Sponser is Protoweb
 
@@ -93,11 +99,3 @@ over time some tools and documentation was written about OldClassicTube. for an 
 - [flash_additions.md](flash_additions.md) - some info on caption and annotations modules within the default 2009 flash player.
 - [flash_player_patch.md](flash_player_patch.md) - manual patch info for using flash players with yt2009.
 - [autoapk.js](autoapk.js) - a node cli file to automatically patch APKs supported by yt2009. your mileage may vary.
-
-## Credits again
-
-Credits to these
-
-- [Youtube](https://www.youtube.com)
-- [Google](https://www.google.com)
-- [YT2009](https://github.com/ftde0/yt2009)
