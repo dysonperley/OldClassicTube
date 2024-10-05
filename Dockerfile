@@ -33,8 +33,8 @@ ENV YT2009_PORT=80 \
     YT2009_FALLBACK=false \
     YT2009_DISABLEMASTER=false \
     YT2009_RATELIMIT=false \
-    YT2009_AC=false \
-    YT2009_GDATA_AUTH=false
+    YT2009_AC=true \
+    YT2009_GDATA_AUTH=true
 
 RUN npm install && \
     ln -s /data/tvdata.json back/tvdata.json && \
@@ -46,5 +46,5 @@ RUN npm install && \
     echo "{\"env\": \"dev\"}" > back/config.json && \
     node post_config_setup.js
 
-CMD ["node", "backend_wrap.js"]
+CMD ["node", "backend.js"]
 ENTRYPOINT ["sh", "docker-entrypoint.sh"]
